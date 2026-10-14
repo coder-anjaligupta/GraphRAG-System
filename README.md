@@ -1,10 +1,10 @@
 # Knowledge Graph-Enhanced RAG (GraphRAG)
 
-## 1. Project Overview
+## 📌 1. Project Overview
 This project implements a Knowledge Graph-Enhanced Retrieval-Augmented Generation (GraphRAG) system designed to move beyond simple semantic chunk search. By combining unstructured raw text vector search with structured Neo4j graph traversal and local LLM generation (via Ollama Llama 3.2), the system accurately answers complex, multi-hop queries. It also includes an evaluation pipeline using the RAGAS framework to quantitatively compare Vanilla Vector Search against GraphRAG.
 
 ---
-## 2. Setup And Installation Guide
+## ⚙️ 2. Setup And Installation Guide
 1. Ensure you have Python installed, along with local **Neo4j** and **Ollama** servers running.
 2. Install the required dependencies using the `requirements.txt` file:
 ```bash
@@ -34,7 +34,7 @@ python evaluate_ragas.py
 
 
 ---
-## 3. Project Architecture
+## 🏗️ 3. Project Architecture
 
 The project architecture consists of three core integrated modules:
 
@@ -43,7 +43,7 @@ The project architecture consists of three core integrated modules:
 * **Evaluation Framework (`evaluate_ragas.py`)**: Utilizes the RAGAS library and local LLM/embeddings to evaluate both Vanilla RAG and GraphRAG pipelines based on key metrics (faithfulness, answer relevancy, and context precision) along with execution latency tracking.
 
 ---
-## 4. Tech Stack & Components
+## 💻 4. Tech Stack & Components
 
 * **Programming Language**: Python
 
@@ -60,7 +60,7 @@ The project architecture consists of three core integrated modules:
 * **Mathematical & Data Processing Library**: NumPy
 
 ---
-## 5. Folder Structure
+## 📁 5. Folder Structure
 
 ```text
 GraphRAG-Project/
@@ -75,7 +75,7 @@ GraphRAG-Project/
 
 ```
 ---
-## 6. Database Schema
+## 🌐 6. Database Schema
 
 The project uses **Neo4j** as a graph database structured as follows:
 
@@ -84,7 +84,7 @@ The project uses **Neo4j** as a graph database structured as follows:
 
 
 ---
-## 7. Features & Enhancements
+## ✨ 7. Features & Enhancements
 
 * **Hybrid Context Retrieval**: Successfully merges unstructured cosine similarity vector search with structured graph path traversal for robust context building.
 * **Offline Local Execution**: Powered entirely offline using local Ollama (`llama3.2`) and HuggingFace sentence-transformers (`all-MiniLM-L6-v2`).
@@ -92,7 +92,7 @@ The project uses **Neo4j** as a graph database structured as follows:
 * **Automated RAGAS Evaluation**: Automated measurement of **Faithfulness**, **Answer Relevancy**, and **Context Precision** metrics with detailed Pandas comparison outputs and latency reports.
 
 ---
-## 8. Future Improvements
+## 📈 8. Future Improvements
 
 * Scaling data ingestion to handle batch processing of multiple larger documents and unstructured files.
 * Integrating advanced reranking techniques (such as Reciprocal Rank Fusion) for optimized hybrid chunk ordering.
