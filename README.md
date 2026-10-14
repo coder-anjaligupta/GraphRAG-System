@@ -12,21 +12,21 @@ This project implements a Knowledge Graph-Enhanced Retrieval-Augmented Generatio
 
 ```
 
-4. Run the data ingestion pipeline to extract triples and save them to Neo4j:
+3. Run the data ingestion pipeline to extract triples and save them to Neo4j:
 ```bash
 python ingestion.py
 
 ```
 
 
-5. Execute the hybrid query engine to perform vector retrieval and graph traversal:
+4. Execute the hybrid query engine to perform vector retrieval and graph traversal:
 ```bash
 python hybrid_engine.py
 
 ```
 
 
-6. Run the RAGAS evaluation framework to compare performance:
+5. Run the RAGAS evaluation framework to compare performance:
 ```bash
 python evaluate_ragas.py
 
