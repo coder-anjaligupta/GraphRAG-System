@@ -31,7 +31,15 @@ python hybrid_engine.py
 python evaluate_ragas.py
 
 ```
+### Local Service Endpoints
 
+- **Neo4j Browser (Graph Database Visualizer):**  
+  `http://localhost:7474`  
+  *(Access the graph database interface to visualize nodes, relationships, and graph schemas)*
+
+- **Ollama Local LLM Server:**  
+  `http://localhost:11434`  
+  *(Background API service for local LLM inference and embeddings)*
 
 ---
 ## 🏗️ 3. Project Architecture
