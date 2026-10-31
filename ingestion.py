@@ -29,9 +29,8 @@ sample_text = (
     "GitHub is headquartered in San Francisco."
 )
 
-# Fully Dynamic System Prompt (No Hardcoded Entity Examples)
 prompt = f"""
-You are an AI data ingestion engine that extracts Knowledge Graph triples.
+You are a data ingestion engine that extracts Knowledge Graph triples.
 Extract all relationships from the input text below.
 
 STRICT INSTRUCTIONS:

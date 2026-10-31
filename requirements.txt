@@ -2,4 +2,7 @@ neo4j
 ollama
 ragas
 sentence-transformers
+langchain-community
 numpy
+pandas
+datasets
