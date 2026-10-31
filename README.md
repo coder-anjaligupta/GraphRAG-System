@@ -108,11 +108,11 @@ The project uses **Neo4j** as a graph database structured as follows:
 ---
 ## 📈 8. Future Improvements
 
-* Scaling data ingestion to handle batch processing of multiple larger documents and unstructured files.
+* Scaling data ingestion to handle batch processing of multiple larger documents and unstructured files
 
-* Integrating advanced reranking techniques (such as Reciprocal Rank Fusion) for optimized hybrid chunk ordering.
+* Integrating advanced reranking techniques (such as Reciprocal Rank Fusion) for optimized hybrid chunk ordering
 
-* Expanding graph traversal depth to support more complex multi-hop reasoning paths.
+* Expanding graph traversal depth to support more complex multi-hop reasoning paths
 
 ---
 
